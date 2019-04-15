@@ -38,8 +38,8 @@ class FilmBox extends Component {
   render() {
     return (
       <Fragment>
-      <FilmList data = {this.state.data}/>
-      <MoreFilms />
+        <FilmList data = {this.state.data}/>
+        <MoreFilms />
       </Fragment>
     )
 

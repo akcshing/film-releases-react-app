@@ -9,13 +9,13 @@ class FilmList extends Component {
       return <Film url={film.url} key={film.id}>{film.name}</Film>
     })
     return (
-      <div>
+      <div className = "film-list">
         <h1>Upcoming Film Releases For UK</h1>
+        <ul>
         {filmNodes}
+        </ul>
       </div>
     )
-
-
   }
 }
 
